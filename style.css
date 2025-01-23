@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #222; 
+    color: #181414; 
+    padding: 20px;
+}
+
+body {
+    background-image: url(https://wallpapercat.com/w/full/0/a/f/1142501-3324x2160-desktop-hd-darts-wallpaper-image.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    color: #FFCC00; 
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    border-radius: 25px;
+}
+.section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-bottom: 30px; 
+}
+.section h2 {
+    color: #FF5500;
+    border-bottom: 2px solid #FFCC00; 
+    padding-bottom: 5px;
+}
+p {
+    margin: 10px 0;
+}
+ul {
+    list-style-type: none; 
+    padding-left: 20px;
+}
+ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+ul li::before {
+    content: '🎯'; 
+    position: absolute;
+    left: 0;
+}
